@@ -29,12 +29,7 @@ body {
     }
 }
 
-#olas{
-    color: #fff;
-    background: linear-gradient(45deg,rgb(3, 233, 41),rgb(37, 61, 5),rgb(0, 0, 0));
-    position: relative;
-    animation: cambiar 2s ease-in-out infinite;
-}
+
 
 /* ------ CHANGE SCROLL BAR -------*/
 body::-webkit-scrollbar {
@@ -65,7 +60,8 @@ body::-webkit-scrollbar-track {
 }
 
 .logo img {
-    width: 120px;
+    width: 100%;
+    max-width: 120px;
     height: auto;
     margin-top: 1rem;
 }
@@ -194,11 +190,18 @@ body::-webkit-scrollbar-track {
 
 /* ------- HOME -------- */
 
-.yo__content img{
+#yo{
     height: 50%;
     width: 50%;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
     
+}
+#yo:hover { 
+    border: 5px solid #0aeb02;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
 }
 
 .home__page {
@@ -438,4 +441,11 @@ footer {
     font-family: var(--font);
     font-size: 0.9rem;
     color: #a3a3a3;
+}
+
+#olas{
+    color: #fff;
+    background: linear-gradient(45deg,rgb(3, 233, 41),rgb(37, 61, 5),rgb(0, 0, 0));
+    position: relative;
+    animation: cambiar 2s ease-in-out infinite;
 }
