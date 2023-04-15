@@ -198,6 +198,13 @@ body::-webkit-scrollbar-track {
     align-items: center;
     
 }
+
+.yo__content
+{
+    display: flex;
+    justify-content: center;
+  }
+
 #yo:hover { 
     border: 5px solid #0aeb02;
     transition: transform 0.3s ease-in-out;
