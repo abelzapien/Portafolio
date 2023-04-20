@@ -57,6 +57,7 @@ body::-webkit-scrollbar-track {
     padding: 0 12rem;
     background-color: var(--bg-color);
     position: relative;
+    border-bottom: solid #00b341;
 }
 
 .logo img {
